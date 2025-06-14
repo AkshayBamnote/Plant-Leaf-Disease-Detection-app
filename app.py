@@ -11,8 +11,8 @@ import gdown
 st.set_page_config(page_title="Plant Disease Detector", layout="centered")
 
 # 📥 Load model from Google Drive
-MODEL_URL = 'https://drive.google.com/uc?id=1lDkbTBf215mCxONJHJ02OhG4sSmJOCTK'
-MODEL_PATH = 'plant_disease_detector_vgg19.keras'
+MODEL_URL = 'https://drive.google.com/uc?id=11wNg_61enVfUfwVixCSQvYuae115gvsL'
+MODEL_PATH = 'plant_disease_detector_vgg19.h5'
 
 if not os.path.exists(MODEL_PATH):
     with st.spinner("Downloading model... Please wait."):
