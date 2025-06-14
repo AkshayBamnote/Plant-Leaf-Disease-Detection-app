@@ -21,7 +21,7 @@ if not os.path.exists(MODEL_PATH):
 # Load trained model
 @st.cache_resource
 def load_model_cached():
-    return load_model(MODEL_PATH)
+    return load_model(MODEL_PATH, compile=False)
 
 model = load_model_cached()
 
